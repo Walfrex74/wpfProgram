@@ -5,9 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Menu x:Name="mainMenu" Background="White" BorderBrush="Purple" BorderThickness="1" Height="25" Width="800" Margin="0,0,0,410">
+        Title="MainWindow" Height="450
+        " Width="800" ResizeMode="NoResize">
+    <Grid Width="800" MaxWidth="800" MaxHeight="450" MinWidth="800" MinHeight="450" Margin="0,0,0,-16">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF6D1D9E"/>
+                <GradientStop Color="#FF380C54" Offset="0.8"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Menu x:Name="mainMenu" Background="MediumPurple" BorderBrush="Purple" BorderThickness="1" Height="25" Width="800" Margin="0,0,0,425">
             <MenuItem Height="20" Width="40" Header="Main">
                 <MenuItem Header="Background color"/>
                 <MenuItem Header="Developer info"/>
@@ -18,21 +25,21 @@
                 <MenuItem Header="About program"/>
             </MenuItem>
         </Menu>
-        <ToolBar HorizontalAlignment="Left" Height="80" Margin="0,89,0,0" VerticalAlignment="Top" Width="130">
-            <Button Height="32" Width="32">
+        <ToolBar HorizontalAlignment="Left" Height="36" Margin="0,30,0,0" VerticalAlignment="Top" Width="132" BorderBrush="Purple" Background="MediumPurple" BorderThickness="1">
+            <Button Name="backgroundIcon" Height="32" Width="32" MouseEnter="backgroundIcon_MouseEnter">
                 <Image Visibility="Visible" Source="C:\Users\Walfrex\source\repos\WpfApp4\WpfApp4\Icons\background.png"/>
             </Button>
             <Separator/>
-            <Button Height="32" Width="32">
+            <Button Name="infoIcon" Height="32" Width="32" MouseEnter="infoIcon_MouseEnter">
                 <Image Visibility="Visible" Source="C:\Users\Walfrex\source\repos\WpfApp4\WpfApp4\Icons\aboutDev.png"/>
             </Button>
             <Separator/>
-            <Button Height="32" Width="32">
+            <Button Name="cancelIcon" Height="32" Width="32" MouseEnter="cancelIcon_MouseEnter">
                 <Image Visibility="Visible" Source="C:\Users\Walfrex\source\repos\WpfApp4\WpfApp4\Icons\close.png"/>
             </Button>
         </ToolBar>
-        <StatusBar VerticalAlignment="Bottom">
-            <TextBlock Text="test"/>
+        <StatusBar VerticalAlignment="Top" Margin="0,385,15,0" BorderBrush="Purple" BorderThickness="1" Background="MediumPurple">
+            <TextBlock Name="statusText" Text="test"/>
             <StatusBarItem HorizontalAlignment="Right">
                 <TextBlock Text="ok"/>
             </StatusBarItem>

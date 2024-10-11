@@ -34,8 +34,8 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Walfrex\\source\\repos\\WpfApp4\\WpfApp4\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp4\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Walfrex\\source\\repos\\WpfApp4\\WpfApp4\\MainWindow.xaml",
-              "RelativeToolTip": "WpfApp4\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Walfrex\\source\\repos\\WpfApp4\\WpfApp4\\MainWindow.xaml*",
+              "RelativeToolTip": "WpfApp4\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-11T05:47:14.845Z",
               "EditorCaption": ""
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "WpfApp4\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Walfrex\\source\\repos\\WpfApp4\\WpfApp4\\MainWindow.xaml.cs",
               "RelativeToolTip": "WpfApp4\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T05:47:14.811Z",
               "EditorCaption": ""

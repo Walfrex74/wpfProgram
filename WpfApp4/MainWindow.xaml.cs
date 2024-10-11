@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +24,21 @@ namespace WpfApp4
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void backgroundIcon_MouseEnter(object sender, MouseEventArgs e)
+        {
+            statusText.Text = "Выберете цвет фона";
+        }
+
+        private void infoIcon_MouseEnter(object sender, MouseEventArgs e)
+        {
+            statusText.Text = "Помощь";
+        }
+
+        private void cancelIcon_MouseEnter(object sender, MouseEventArgs e)
+        {
+            statusText.Text = "Отмена";
         }
     }
 }
