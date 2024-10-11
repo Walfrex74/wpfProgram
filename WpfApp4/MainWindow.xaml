@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu x:Name="mainMenu" Background="White" BorderBrush="Purple" BorderThickness="1" Height="25" Width="800" Margin="0,0,0,410">
+            <MenuItem Height="20" Width="40" Header="Main">
+                <MenuItem Header="Background color"/>
+                <MenuItem Header="Developer info"/>
+                <Separator/>
+                <MenuItem Header="Close window"/>
+            </MenuItem>
+            <MenuItem Height="20" Width="40" Header="About">
+                <MenuItem Header="About program"/>
+            </MenuItem>
+        </Menu>
+        <ToolBar HorizontalAlignment="Left" Height="80" Margin="0,89,0,0" VerticalAlignment="Top" Width="130">
+            <Button Height="32" Width="32">
+                <Image Visibility="Visible" Source="C:\Users\Walfrex\source\repos\WpfApp4\WpfApp4\Icons\background.png"/>
+            </Button>
+            <Separator/>
+            <Button Height="32" Width="32">
+                <Image Visibility="Visible" Source="C:\Users\Walfrex\source\repos\WpfApp4\WpfApp4\Icons\aboutDev.png"/>
+            </Button>
+            <Separator/>
+            <Button Height="32" Width="32">
+                <Image Visibility="Visible" Source="C:\Users\Walfrex\source\repos\WpfApp4\WpfApp4\Icons\close.png"/>
+            </Button>
+        </ToolBar>
+        <StatusBar VerticalAlignment="Bottom">
+            <TextBlock Text="test"/>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock Text="ok"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
