@@ -1,0 +1,14 @@
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\bin\Debug\GraphicsEditor.exe.config
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\bin\Debug\GraphicsEditor.exe
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\bin\Debug\GraphicsEditor.pdb
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\GraphicsEditor.csproj.AssemblyReference.cache
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\MainWindow.g.cs
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\App.g.cs
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\GraphicsEditor_MarkupCompile.cache
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\MainWindow.baml
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\GraphicsEditor.g.resources
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\GraphicsEditor.Properties.Resources.resources
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\GraphicsEditor.csproj.GenerateResource.cache
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\GraphicsEditor.csproj.CoreCompileInputs.cache
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\GraphicsEditor.exe
+C:\Users\Walfrex\source\repos\GraphicsEditor\GraphicsEditor\obj\Debug\GraphicsEditor.pdb
