@@ -1,0 +1,15 @@
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MessageBoxApp.csproj.AssemblyReference.cache
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MainWindow.g.cs
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\App.g.cs
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MessageBoxApp_MarkupCompile.cache
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MessageBoxApp_MarkupCompile.lref
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\bin\Debug\MessageBoxApp.exe.config
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\bin\Debug\MessageBoxApp.exe
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\bin\Debug\MessageBoxApp.pdb
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MainWindow.baml
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MessageBoxApp.g.resources
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MessageBoxApp.Properties.Resources.resources
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MessageBoxApp.csproj.GenerateResource.cache
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MessageBoxApp.csproj.CoreCompileInputs.cache
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MessageBoxApp.exe
+C:\Users\Walfrex\source\repos\MessageBoxApp\MessageBoxApp\obj\Debug\MessageBoxApp.pdb
