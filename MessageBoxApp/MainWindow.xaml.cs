@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using Microsoft.Win32;
 
 namespace MessageBoxApp
 {
@@ -54,6 +56,32 @@ namespace MessageBoxApp
 
         private void nameSave_Click(object sender, RoutedEventArgs e)
         {
+            SaveFileDialog saveText = new SaveFileDialog();
+            saveText.Filter = "Текстовый файл (*.txt)|*.txt";
+            string input = nameBox.Text;
+
+            if (string.IsNullOrEmpty(input) || input != input.ToLower())
+            {
+                MessageBox.Show("Неверный ввод! Пожалуйста, введите текст в нижнем регистре.",
+                                "Ошибка ввода",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Error);
+            }
+            else
+            {
+
+                if (saveText.ShowDialog() == true)
+                {
+                    File.WriteAllText(saveText.FileName, nameBox.Text);
+                }
+                MessageBox.Show("Ввод принят!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
+        private void textSize_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            textSize2.Text = textSize.Value.ToString();
+            nameBox.FontSize = textSize.Value;
         }
     }
 }

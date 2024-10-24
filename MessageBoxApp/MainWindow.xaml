@@ -7,14 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel Margin="242,160,216,138">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF9C78DE"/>
+                <GradientStop Color="#FF331474" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackPanel Margin="191,10,161,10">
             <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" Text="Напишите ваше имя" FontFamily="Consolas" FontSize="32" HorizontalAlignment="Center"/>
-            <TextBox x:Name="nameBox" TextWrapping="Wrap" Text="" Width="293" HorizontalAlignment="Right" FontFamily="Consolas" FontSize="16" IsMouseDirectlyOverChanged="TextBox_IsMouseDirectlyOverChanged" Margin="0,10,0,0">
+            <TextBox x:Name="nameBox" TextWrapping="Wrap" Text="" Width="293" HorizontalAlignment="Center" FontFamily="Consolas" FontSize="20" IsMouseDirectlyOverChanged="TextBox_IsMouseDirectlyOverChanged" Margin="0,10,0,0" Background="#FF561BD2" BorderBrush="#FF219E29">
                 <TextBox.ToolTip>Введите ваше имя</TextBox.ToolTip>
             </TextBox>
-            <Button x:Name="confirmName" Content="Ввод" FontFamily="Consolas" FontSize="16" Width="85" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="25" Margin="0,10,0,0" Click="confirmName_Click"/>
+            <TextBox x:Name="textSize2" TextWrapping="Wrap" Width="50" Height="18" HorizontalAlignment="Right" Background="#FF561BD2" BorderBrush="#FF219E29" SelectionTextBrush="#FF89F990"/>
+            <Button x:Name="confirmName" Content="Ввод" FontFamily="Consolas" FontSize="16" Width="85" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="25" Margin="0,10,0,0" Click="confirmName_Click" BorderBrush="#FF219E29" Background="#FF561BD2"/>
         </StackPanel>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Имя" FontFamily="Consolas" FontSize="24" Width="83" Margin="227,204,0,181"/>
-        <Button Name="nameSave" Content="Сохранить" HorizontalAlignment="Right" Margin="0,399,10,0" VerticalAlignment="Top" Width="85" Height="25" FontFamily="Consolas" FontSize="16" Click="nameSave_Click"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Имя" FontFamily="Consolas" FontSize="24" Width="83" Margin="205,56,0,329"/>
+        <Button Name="nameSave" Content="Сохранить" HorizontalAlignment="Right" Margin="0,399,10,0" VerticalAlignment="Top" Width="85" Height="25" FontFamily="Consolas" FontSize="16" Click="nameSave_Click" Background="#FF561BD2" BorderBrush="#FF219E29"/>
+        <Slider Name="textSize" HorizontalAlignment="Left" Margin="670,10,0,0" VerticalAlignment="Top" Width="120" Minimum="5" Maximum="100" ValueChanged="textSize_ValueChanged" Value="20"/>
     </Grid>
 </Window>
